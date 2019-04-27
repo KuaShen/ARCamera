@@ -1,0 +1,6 @@
+framework module ARCamera {
+  umbrella header "ARCamera-umbrella.h"
+
+  export *
+  module * { export * }
+}

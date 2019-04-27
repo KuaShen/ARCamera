@@ -1,0 +1,767 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		299758293CD386B1E7A2AE37B7DD963F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		7464473D410DCA92A64F4D2A508231B5 /* ARCamera-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 150C86430CC9AA223CBAC3C6C33EBC64 /* ARCamera-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		875E4A0B14348746B7D5C6C873AE19DC /* Pods-ARCamera_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BDCBBD3B7A7123EE164E4D7B3BCDC6B /* Pods-ARCamera_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98689A6D960DEFAF6D2A447E491356EE /* Pods-ARCamera_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 552CC338414F1F60018F2E217778D793 /* Pods-ARCamera_Tests-dummy.m */; };
+		9B0456A505F851DBBC7E3F14FFA6FFAD /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E17B2A4ADDE2EF8E37D25CD9DB93A96 /* ReplaceMe.m */; };
+		A9D302E532D9063A14C47BA24FEFFCEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		AFAF19A055DF0D6835A12853B2EE8539 /* Pods-ARCamera_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA401596ADC818E8E6625A4F8B950DDC /* Pods-ARCamera_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C28CCB76DC91DC5B12EB6BFD26BF4BD6 /* ARCamera-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A3909D4450D046CDC15D3FBB011914 /* ARCamera-dummy.m */; };
+		E512F73BCD6334186589D467454BE3AC /* Pods-ARCamera_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB5870B0EB81B4E6B5F711FD2553B29 /* Pods-ARCamera_Example-dummy.m */; };
+		E811DB002B4E862906B8EEF5D0EF4710 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F33D024300062CE0E597D5FFD62B2BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2599D67ABA46C949AD54C297FDC40802;
+			remoteInfo = ARCamera;
+		};
+		95F2319334CCEFD1DDDD9B72A6ADC11D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E15A36F43E99971BD9A011C020FB3145;
+			remoteInfo = "Pods-ARCamera_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		150C86430CC9AA223CBAC3C6C33EBC64 /* ARCamera-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ARCamera-umbrella.h"; sourceTree = "<group>"; };
+		2E2E9F3F45A72343459D0BF5FF13AD75 /* Pods-ARCamera_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ARCamera_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		552CC338414F1F60018F2E217778D793 /* Pods-ARCamera_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ARCamera_Tests-dummy.m"; sourceTree = "<group>"; };
+		5C435BBD6F6F0CC0C54A9B532E2CD9A5 /* Pods-ARCamera_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ARCamera_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		60936D06B934C9D45FD63ADC01EB2C7D /* Pods-ARCamera_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ARCamera_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		613C1B98C9F145171FC3BCE9B1D272AB /* Pods-ARCamera_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ARCamera_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		62E3EA8DE11A4B23B0FAB39A8911850C /* Pods-ARCamera_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ARCamera_Example-Info.plist"; sourceTree = "<group>"; };
+		6B5967263CD38024FC74E5DC5FEEB176 /* ARCamera.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ARCamera.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		743364BA62EB40599C03950DA7451704 /* ARCamera.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ARCamera.xcconfig; sourceTree = "<group>"; };
+		7CB5870B0EB81B4E6B5F711FD2553B29 /* Pods-ARCamera_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ARCamera_Example-dummy.m"; sourceTree = "<group>"; };
+		7EA989A8358C792AD8E6813C66DF8134 /* ARCamera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ARCamera.framework; path = ARCamera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85A3909D4450D046CDC15D3FBB011914 /* ARCamera-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ARCamera-dummy.m"; sourceTree = "<group>"; };
+		95D8FF6EDF742E7175E15B0FDE847A0A /* ARCamera.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ARCamera.modulemap; sourceTree = "<group>"; };
+		97C2211315FE7738A52B022FB4AEB51E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9BDCBBD3B7A7123EE164E4D7B3BCDC6B /* Pods-ARCamera_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ARCamera_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9D0E2EB1B567E66024C8BA3C6CD900CF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E17B2A4ADDE2EF8E37D25CD9DB93A96 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ARCamera/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		AD2697D1CDCD1D2CE191763047BBF192 /* Pods-ARCamera_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ARCamera_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B7A343AE3C9DC192F8384DA55F65F632 /* Pods-ARCamera_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ARCamera_Tests.modulemap"; sourceTree = "<group>"; };
+		B9A136C4D1BF332864528906FA6FC29E /* Pods_ARCamera_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ARCamera_Example.framework; path = "Pods-ARCamera_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C63096B15BDAF2E37AD6C30F0888F50B /* ARCamera-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ARCamera-prefix.pch"; sourceTree = "<group>"; };
+		C9CC63EB456D7B5C494E795044AD194C /* Pods-ARCamera_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ARCamera_Example-frameworks.sh"; sourceTree = "<group>"; };
+		CA11EFFF72516BADF79226E0CE1C9CEC /* Pods-ARCamera_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ARCamera_Tests-Info.plist"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D16F5D07061D499E8AE8B398036CB503 /* Pods-ARCamera_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ARCamera_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D3FE7449EC2730E24C866F70018D6544 /* ARCamera-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ARCamera-Info.plist"; sourceTree = "<group>"; };
+		DAAF3AB257EB6C1514615E4BE1FA7254 /* Pods-ARCamera_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ARCamera_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		DAF655AD4D2B13A1DB9659F799C85D80 /* Pods-ARCamera_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ARCamera_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E067EE9BC730750957B1EA376B52E45C /* Pods_ARCamera_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ARCamera_Tests.framework; path = "Pods-ARCamera_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2FEE77816CD28B3E6352895D14429D5 /* Pods-ARCamera_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ARCamera_Example.modulemap"; sourceTree = "<group>"; };
+		FA401596ADC818E8E6625A4F8B950DDC /* Pods-ARCamera_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ARCamera_Example-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		684D9D9B069D93362B5750A8C24B56E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E811DB002B4E862906B8EEF5D0EF4710 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85D5FF75B2D68A451FB88269FB2437D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9D302E532D9063A14C47BA24FEFFCEA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F726576E71D0087837C83CAA22D8ED0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				299758293CD386B1E7A2AE37B7DD963F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C0BECCC94ADD05507A89F2051EE0BC1 /* ARCamera */ = {
+			isa = PBXGroup;
+			children = (
+				9E17B2A4ADDE2EF8E37D25CD9DB93A96 /* ReplaceMe.m */,
+				7C622A820225C7EBA0E0694A771F79DF /* Pod */,
+				2FF0E8D1F6FF7BD5E7636409901ED68E /* Support Files */,
+			);
+			name = ARCamera;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		2FF0E8D1F6FF7BD5E7636409901ED68E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				95D8FF6EDF742E7175E15B0FDE847A0A /* ARCamera.modulemap */,
+				743364BA62EB40599C03950DA7451704 /* ARCamera.xcconfig */,
+				85A3909D4450D046CDC15D3FBB011914 /* ARCamera-dummy.m */,
+				D3FE7449EC2730E24C866F70018D6544 /* ARCamera-Info.plist */,
+				C63096B15BDAF2E37AD6C30F0888F50B /* ARCamera-prefix.pch */,
+				150C86430CC9AA223CBAC3C6C33EBC64 /* ARCamera-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ARCamera";
+			sourceTree = "<group>";
+		};
+		40D0084D656B0EB746AC32133EE61B22 /* Pods-ARCamera_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B7A343AE3C9DC192F8384DA55F65F632 /* Pods-ARCamera_Tests.modulemap */,
+				2E2E9F3F45A72343459D0BF5FF13AD75 /* Pods-ARCamera_Tests-acknowledgements.markdown */,
+				DAF655AD4D2B13A1DB9659F799C85D80 /* Pods-ARCamera_Tests-acknowledgements.plist */,
+				552CC338414F1F60018F2E217778D793 /* Pods-ARCamera_Tests-dummy.m */,
+				CA11EFFF72516BADF79226E0CE1C9CEC /* Pods-ARCamera_Tests-Info.plist */,
+				9BDCBBD3B7A7123EE164E4D7B3BCDC6B /* Pods-ARCamera_Tests-umbrella.h */,
+				613C1B98C9F145171FC3BCE9B1D272AB /* Pods-ARCamera_Tests.debug.xcconfig */,
+				AD2697D1CDCD1D2CE191763047BBF192 /* Pods-ARCamera_Tests.release.xcconfig */,
+			);
+			name = "Pods-ARCamera_Tests";
+			path = "Target Support Files/Pods-ARCamera_Tests";
+			sourceTree = "<group>";
+		};
+		446EF5CF7E3463E17ABD0956AC082D8F /* Pods-ARCamera_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E2FEE77816CD28B3E6352895D14429D5 /* Pods-ARCamera_Example.modulemap */,
+				60936D06B934C9D45FD63ADC01EB2C7D /* Pods-ARCamera_Example-acknowledgements.markdown */,
+				DAAF3AB257EB6C1514615E4BE1FA7254 /* Pods-ARCamera_Example-acknowledgements.plist */,
+				7CB5870B0EB81B4E6B5F711FD2553B29 /* Pods-ARCamera_Example-dummy.m */,
+				C9CC63EB456D7B5C494E795044AD194C /* Pods-ARCamera_Example-frameworks.sh */,
+				62E3EA8DE11A4B23B0FAB39A8911850C /* Pods-ARCamera_Example-Info.plist */,
+				FA401596ADC818E8E6625A4F8B950DDC /* Pods-ARCamera_Example-umbrella.h */,
+				5C435BBD6F6F0CC0C54A9B532E2CD9A5 /* Pods-ARCamera_Example.debug.xcconfig */,
+				D16F5D07061D499E8AE8B398036CB503 /* Pods-ARCamera_Example.release.xcconfig */,
+			);
+			name = "Pods-ARCamera_Example";
+			path = "Target Support Files/Pods-ARCamera_Example";
+			sourceTree = "<group>";
+		};
+		7C5EACF88EFD729F9A4C7FC5C4DE3E53 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C0BECCC94ADD05507A89F2051EE0BC1 /* ARCamera */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7C622A820225C7EBA0E0694A771F79DF /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6B5967263CD38024FC74E5DC5FEEB176 /* ARCamera.podspec */,
+				97C2211315FE7738A52B022FB4AEB51E /* LICENSE */,
+				9D0E2EB1B567E66024C8BA3C6CD900CF /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		91C8638B5AA12195192288EFA9D6C23F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EA989A8358C792AD8E6813C66DF8134 /* ARCamera.framework */,
+				B9A136C4D1BF332864528906FA6FC29E /* Pods_ARCamera_Example.framework */,
+				E067EE9BC730750957B1EA376B52E45C /* Pods_ARCamera_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99E13EDC90C0E0B1F7E44D095DF95CB5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				446EF5CF7E3463E17ABD0956AC082D8F /* Pods-ARCamera_Example */,
+				40D0084D656B0EB746AC32133EE61B22 /* Pods-ARCamera_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				7C5EACF88EFD729F9A4C7FC5C4DE3E53 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				91C8638B5AA12195192288EFA9D6C23F /* Products */,
+				99E13EDC90C0E0B1F7E44D095DF95CB5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1F5388B746A88AE68AF0087198055F60 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				875E4A0B14348746B7D5C6C873AE19DC /* Pods-ARCamera_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		589FB5CC3674C3054A7D2FCADB75E416 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7464473D410DCA92A64F4D2A508231B5 /* ARCamera-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A0E8409BA0E6CBD2FC39394A8BC04CA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFAF19A055DF0D6835A12853B2EE8539 /* Pods-ARCamera_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2599D67ABA46C949AD54C297FDC40802 /* ARCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF1902E3135466965DDECEFA559D1B4B /* Build configuration list for PBXNativeTarget "ARCamera" */;
+			buildPhases = (
+				589FB5CC3674C3054A7D2FCADB75E416 /* Headers */,
+				9D608A686F58D620E1F0413A9CF9BA94 /* Sources */,
+				684D9D9B069D93362B5750A8C24B56E0 /* Frameworks */,
+				325CDB619765667FBBC63DE1D2E28A53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARCamera;
+			productName = ARCamera;
+			productReference = 7EA989A8358C792AD8E6813C66DF8134 /* ARCamera.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		91B6E3B40837829A2BAE6927CA20C760 /* Pods-ARCamera_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46D5CC94583450BD09DBC8DC6DBDCB9C /* Build configuration list for PBXNativeTarget "Pods-ARCamera_Tests" */;
+			buildPhases = (
+				1F5388B746A88AE68AF0087198055F60 /* Headers */,
+				833CE16FB289E9F3E28417FA40A25541 /* Sources */,
+				85D5FF75B2D68A451FB88269FB2437D6 /* Frameworks */,
+				37B7BBE62E1F826722345A91B76D9BC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D232FBA6D66896D53730A6E8495E6D04 /* PBXTargetDependency */,
+			);
+			name = "Pods-ARCamera_Tests";
+			productName = "Pods-ARCamera_Tests";
+			productReference = E067EE9BC730750957B1EA376B52E45C /* Pods_ARCamera_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E15A36F43E99971BD9A011C020FB3145 /* Pods-ARCamera_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7311E158CB5275DFC3400817B8D86FCC /* Build configuration list for PBXNativeTarget "Pods-ARCamera_Example" */;
+			buildPhases = (
+				9A0E8409BA0E6CBD2FC39394A8BC04CA /* Headers */,
+				B980CF58BFB5EA02638CE62056A8B0FD /* Sources */,
+				9F726576E71D0087837C83CAA22D8ED0 /* Frameworks */,
+				34F4F884C045FE9D5CD0BD05A1662C61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64CAA7DB443510E9ADAD5E92E619BC40 /* PBXTargetDependency */,
+			);
+			name = "Pods-ARCamera_Example";
+			productName = "Pods-ARCamera_Example";
+			productReference = B9A136C4D1BF332864528906FA6FC29E /* Pods_ARCamera_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 91C8638B5AA12195192288EFA9D6C23F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2599D67ABA46C949AD54C297FDC40802 /* ARCamera */,
+				E15A36F43E99971BD9A011C020FB3145 /* Pods-ARCamera_Example */,
+				91B6E3B40837829A2BAE6927CA20C760 /* Pods-ARCamera_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		325CDB619765667FBBC63DE1D2E28A53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34F4F884C045FE9D5CD0BD05A1662C61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37B7BBE62E1F826722345A91B76D9BC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		833CE16FB289E9F3E28417FA40A25541 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98689A6D960DEFAF6D2A447E491356EE /* Pods-ARCamera_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D608A686F58D620E1F0413A9CF9BA94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C28CCB76DC91DC5B12EB6BFD26BF4BD6 /* ARCamera-dummy.m in Sources */,
+				9B0456A505F851DBBC7E3F14FFA6FFAD /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B980CF58BFB5EA02638CE62056A8B0FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E512F73BCD6334186589D467454BE3AC /* Pods-ARCamera_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64CAA7DB443510E9ADAD5E92E619BC40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ARCamera;
+			target = 2599D67ABA46C949AD54C297FDC40802 /* ARCamera */;
+			targetProxy = 1F33D024300062CE0E597D5FFD62B2BA /* PBXContainerItemProxy */;
+		};
+		D232FBA6D66896D53730A6E8495E6D04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ARCamera_Example";
+			target = E15A36F43E99971BD9A011C020FB3145 /* Pods-ARCamera_Example */;
+			targetProxy = 95F2319334CCEFD1DDDD9B72A6ADC11D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05DF210AC65EBB0E593AAF976B2C2177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		421ECB1396280A8D83853C3DDBED1700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4E19D676889CAD376EEE5784C77C7EC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 613C1B98C9F145171FC3BCE9B1D272AB /* Pods-ARCamera_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ARCamera_Tests/Pods-ARCamera_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ARCamera_Tests/Pods-ARCamera_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5760D1D19180EDA9D8AD742052844D14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D16F5D07061D499E8AE8B398036CB503 /* Pods-ARCamera_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ARCamera_Example/Pods-ARCamera_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ARCamera_Example/Pods-ARCamera_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		640E5C50B3DD69D6471D2FFE3C84E7DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C435BBD6F6F0CC0C54A9B532E2CD9A5 /* Pods-ARCamera_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ARCamera_Example/Pods-ARCamera_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ARCamera_Example/Pods-ARCamera_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0C0DB74D54935ECDDF75F432A9020DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 743364BA62EB40599C03950DA7451704 /* ARCamera.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ARCamera/ARCamera-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ARCamera/ARCamera-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ARCamera/ARCamera.modulemap";
+				PRODUCT_MODULE_NAME = ARCamera;
+				PRODUCT_NAME = ARCamera;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BEAE617D6299195B404295F9AD9D9A3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 743364BA62EB40599C03950DA7451704 /* ARCamera.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ARCamera/ARCamera-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ARCamera/ARCamera-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ARCamera/ARCamera.modulemap";
+				PRODUCT_MODULE_NAME = ARCamera;
+				PRODUCT_NAME = ARCamera;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DB11671DE1C1AAF8E67E9AE7EA2037E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD2697D1CDCD1D2CE191763047BBF192 /* Pods-ARCamera_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ARCamera_Tests/Pods-ARCamera_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ARCamera_Tests/Pods-ARCamera_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46D5CC94583450BD09DBC8DC6DBDCB9C /* Build configuration list for PBXNativeTarget "Pods-ARCamera_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E19D676889CAD376EEE5784C77C7EC1 /* Debug */,
+				DB11671DE1C1AAF8E67E9AE7EA2037E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421ECB1396280A8D83853C3DDBED1700 /* Debug */,
+				05DF210AC65EBB0E593AAF976B2C2177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7311E158CB5275DFC3400817B8D86FCC /* Build configuration list for PBXNativeTarget "Pods-ARCamera_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				640E5C50B3DD69D6471D2FFE3C84E7DF /* Debug */,
+				5760D1D19180EDA9D8AD742052844D14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF1902E3135466965DDECEFA559D1B4B /* Build configuration list for PBXNativeTarget "ARCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEAE617D6299195B404295F9AD9D9A3B /* Debug */,
+				B0C0DB74D54935ECDDF75F432A9020DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

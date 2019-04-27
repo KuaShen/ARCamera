@@ -1,0 +1,16 @@
+PODS:
+  - ARCamera (0.1.0)
+
+DEPENDENCIES:
+  - ARCamera (from `../`)
+
+EXTERNAL SOURCES:
+  ARCamera:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ARCamera: da2a9a7784be3a454340543af352f22b556586f7
+
+PODFILE CHECKSUM: c466f47496fe6a814332846a6dfbebba4fd2ccf5
+
+COCOAPODS: 1.6.1

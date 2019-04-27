@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04195DED2268640B004113C3 /* CameraScene.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 04195DEC2268640B004113C3 /* CameraScene.scnassets */; };
+		0419CD922270BBB500DDFD46 /* CAEffectsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0419CD902270BBB500DDFD46 /* CAEffectsCell.m */; };
+		0419CD932270BBB500DDFD46 /* CAEffectsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0419CD912270BBB500DDFD46 /* CAEffectsCell.xib */; };
+		042CBD23227448FE001EDF68 /* CAMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 042CBD22227448FE001EDF68 /* CAMessageView.m */; };
 		0A2281C2486D1C24E3299AEE /* Pods_ARCamera_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DDADB607807BE0A859757F5 /* Pods_ARCamera_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -37,9 +41,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04195DEC2268640B004113C3 /* CameraScene.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = CameraScene.scnassets; sourceTree = "<group>"; };
+		0419CD8F2270BBB400DDFD46 /* CAEffectsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAEffectsCell.h; sourceTree = "<group>"; };
+		0419CD902270BBB500DDFD46 /* CAEffectsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAEffectsCell.m; sourceTree = "<group>"; };
+		0419CD912270BBB500DDFD46 /* CAEffectsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CAEffectsCell.xib; sourceTree = "<group>"; };
+		042CBD21227448FE001EDF68 /* CAMessageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAMessageView.h; sourceTree = "<group>"; };
+		042CBD22227448FE001EDF68 /* CAMessageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAMessageView.m; sourceTree = "<group>"; };
 		159599CE658DEFB01BF81AE7 /* Pods-ARCamera_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARCamera_Example.release.xcconfig"; path = "Target Support Files/Pods-ARCamera_Example/Pods-ARCamera_Example.release.xcconfig"; sourceTree = "<group>"; };
 		196E4B9CCC9BDCC0C319CC92 /* Pods-ARCamera_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARCamera_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ARCamera_Tests/Pods-ARCamera_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		233C96F21836ED26F09D034F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		233C96F21836ED26F09D034F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5B7E56880F3BA5ED7F73A442 /* Pods-ARCamera_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARCamera_Tests.release.xcconfig"; path = "Target Support Files/Pods-ARCamera_Tests/Pods-ARCamera_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ARCamera_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARCamera_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -61,10 +71,10 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7BEA23809424B0378B3A5E6E /* ARCamera.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ARCamera.podspec; path = ../ARCamera.podspec; sourceTree = "<group>"; };
+		7BEA23809424B0378B3A5E6E /* ARCamera.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ARCamera.podspec; path = ../ARCamera.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7DDADB607807BE0A859757F5 /* Pods_ARCamera_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARCamera_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8A3FF9046308BB7C3B120810 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8A3FF9046308BB7C3B120810 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		AF40DD573D81BDDCF9A57783 /* Pods_ARCamera_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARCamera_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E335F32B667E2ADCBE26D99F /* Pods-ARCamera_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARCamera_Example.debug.xcconfig"; path = "Target Support Files/Pods-ARCamera_Example/Pods-ARCamera_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -137,6 +147,12 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* CAViewController.h */,
 				6003F5A6195388D20070C39A /* CAViewController.m */,
+				0419CD8F2270BBB400DDFD46 /* CAEffectsCell.h */,
+				0419CD902270BBB500DDFD46 /* CAEffectsCell.m */,
+				0419CD912270BBB500DDFD46 /* CAEffectsCell.xib */,
+				042CBD21227448FE001EDF68 /* CAMessageView.h */,
+				042CBD22227448FE001EDF68 /* CAMessageView.m */,
+				04195DEC2268640B004113C3 /* CameraScene.scnassets */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -193,7 +209,6 @@
 				196E4B9CCC9BDCC0C319CC92 /* Pods-ARCamera_Tests.debug.xcconfig */,
 				5B7E56880F3BA5ED7F73A442 /* Pods-ARCamera_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +263,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = KuaShen;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = L55H5YD94T;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -277,7 +295,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04195DED2268640B004113C3 /* CameraScene.scnassets in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				0419CD932270BBB500DDFD46 /* CAEffectsCell.xib in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -369,7 +389,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* CAAppDelegate.m in Sources */,
+				042CBD23227448FE001EDF68 /* CAMessageView.m in Sources */,
 				6003F5A7195388D20070C39A /* CAViewController.m in Sources */,
+				0419CD922270BBB500DDFD46 /* CAEffectsCell.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,11 +520,13 @@
 			baseConfigurationReference = E335F32B667E2ADCBE26D99F /* Pods-ARCamera_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L55H5YD94T;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ARCamera/ARCamera-Prefix.pch";
 				INFOPLIST_FILE = "ARCamera/ARCamera-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lab603.self.jeff.Auto-Correction";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -513,11 +537,13 @@
 			baseConfigurationReference = 159599CE658DEFB01BF81AE7 /* Pods-ARCamera_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L55H5YD94T;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ARCamera/ARCamera-Prefix.pch";
 				INFOPLIST_FILE = "ARCamera/ARCamera-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lab603.self.jeff.Auto-Correction";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

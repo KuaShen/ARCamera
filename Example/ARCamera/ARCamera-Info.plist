@@ -35,8 +35,6 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
@@ -45,5 +43,13 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    <!-- 相册 -->
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>App需要您的同意,才能访问相册</string>
+    <!-- 相机 -->
+    <key>NSCameraUsageDescription</key>
+    <string>App需要您的同意,才能访问相机</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>请允许APP保存图片到相册</string>
 </dict>
 </plist>

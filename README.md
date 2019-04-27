@@ -4,6 +4,7 @@
 [![Version](https://img.shields.io/cocoapods/v/ARCamera.svg?style=flat)](https://cocoapods.org/pods/ARCamera)
 [![License](https://img.shields.io/cocoapods/l/ARCamera.svg?style=flat)](https://cocoapods.org/pods/ARCamera)
 [![Platform](https://img.shields.io/cocoapods/p/ARCamera.svg?style=flat)](https://cocoapods.org/pods/ARCamera)
+AR 贴纸，AR 表情，AR 场景布置
 
 ## Example
 
